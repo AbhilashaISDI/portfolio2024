@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+        #wrapper{
+            width: 80%;
+            margin: auto;
+        }
+        #logo-nav{
+            width: 100%;
+            height:50px;
+            background-color: blue;
+            margin-bottom: 10px;
+        }
+        #logo{
+            width: 30%;
+            height:50px;
+            background-color: rgb(79, 79, 242);
+            float: left;
+            text-align: center;
+        }
+        #navigation{
+            width: 70%;
+            height:50px;
+            background-color: rgb(134, 134, 235);
+            float: right;
+            text-align: center;
+
+        }
+        #header{
+            width: 100%;
+            height:150px;
+            background-color: rgb(171, 171, 237);
+            background-image: url(style.jpg);
+            background-repeat: no-repeat;
+        
+            margin-bottom: 10px;
+            text-align: center;
+
+        }
+        #header h1{
+            font-size: 24px;
+            color: blue;
+        }
+        #text{
+            width: 100%;
+            height:100px;
+            background-color: rgb(45, 45, 91);
+            margin-bottom: 10px;
+        }
+        #content{
+            width: 100%;
+            height:400px;
+            background-color: rgb(202, 202, 232);
+            margin-bottom: 10px;
+        }
+        .box{
+            width: 30%;
+            height:400px;
+            background-color: rgb(235, 108, 108);
+            float: left;
+        }
+        .box:nth-child(2){
+            margin-left: 5%;
+            margin-right: 5%;
+
+        }
+
+
+
+        #footer{
+            width: 100%;
+            height:50px;
+            background-color: rgb(7, 7, 62);
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div id="logo-nav">
+        <div id="logo">Logo</div>
+        <div id="navigation">navigation</div>
+    </div>
+    <div id="header"><h1>Header / Banner</h1></div>
+    <div id="text">Intro text area</div>
+    <div id="content">
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+    </div>
+    <div id="footer"></div>
+</div>   
+</body>
+</html>

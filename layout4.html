@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+</head>
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    #wrapper{
+        width: 80%;
+        margin: auto;
+        min-height: 100px;
+    }
+    #logo-nav{
+        width: 100%;
+        height:100px;
+    }
+    #logo{
+        width: 30%;
+        height:100px;
+        background-color: rgb(27, 77, 61);
+        float: left;
+    }
+    #nav{
+        width: 70%;
+        height:100px;
+        background-color: rgb(11, 52, 39);
+        float: right;
+    }
+    #banner{
+        width: 100%;
+        min-height: 350px;
+        background:url(img/banner.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    #content{
+        width: 80%;
+       height: 400px;
+       margin:auto;
+       text-align: center;
+       background-color: rgb(11, 120, 120);
+    }
+    #content1{
+        width: 100%;
+       height: 400px;
+       margin:auto;
+       text-align: center;
+       background-color: aliceblue;
+    }
+
+    #content3{
+        width: 100%;
+       height: 615px;
+       margin:auto;
+       text-align: center;
+       background-color: aliceblue;
+    }
+    #content1-left{
+        width: 50%;
+        height: 300px;
+        background-color: beige;
+        float: left;
+    }
+    #content1-img{
+        width: 50%;
+        height: 300px;
+        background-color: beige;
+        float: right;
+    }
+  h1{
+        font-size: 20px;
+        margin-top: 80px;
+    }
+    p{
+
+        margin-top: 20px;
+        margin-bottom: 80px;
+
+
+    }
+    .box{
+        margin-top: 50px;
+        width: 31%;
+        height:300px;
+        background-color: antiquewhite;
+        float: left;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        box-shadow: 1px 2px 6px grey;
+    }
+    .box:nth-child(2){
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+    #sm{
+        width: 100%;
+       height: 200px;
+background-color: blueviolet;    
+   margin-bottom: 5px;
+    }
+    
+
+    .card{
+
+        width: 49%;
+        height: 300px;
+        margin-bottom:15px;
+        background-color: bisque;
+        float: left;
+        border: 1px solid transparent;
+        border-radius: 20px;
+
+    }
+    .card:nth-child(2),.card:nth-child(4){
+        float: right;
+    }
+    #footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);    
+    margin-bottom: 5px;
+    }
+    
+</style>
+<body>
+<div id="wrapper">
+<div id="logo-nav">
+<div id="logo">Logo</div>
+<div id="nav">nav</div>
+</div>
+
+<div id="banner"></div>
+
+<div id="content">
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</div>
+
+<div id="content1">
+    <div id="content-left">ffgbxgfb</div>
+    <div id="content-img">ffgbxgfb</div>
+
+</div>
+
+
+    <div id="content3">
+<div class="card">1</div>
+<div class="card">2</div>
+<div class="card">3</div>
+<div class="card">4</div>
+</div>
+
+<div id="content">
+    <h1>We are perfect team</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Voluptate maiores atque, dolor optio explicabo magni quidem
+        nulla reprehenderit repellendus. Voluptatem deleniti,
+        voluptatum nam iure facilis libero velit. Corrupti,
+        praesentium cupiditate.</p>
+
+
+</div>
+<div id="sm"></div>
+<div id="footer"></div>
+
+
+
+<div></div>
+
+
+
+</div>
+
+</body>
+</html>

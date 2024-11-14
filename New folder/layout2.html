@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2</title>
+    <style>
+        *{
+           margin: 0px; 
+           padding: 0px;
+           font-family: Arial, Helvetica, sans-serif;
+           box-sizing: border-box;
+
+        }
+        #wrapper{
+            width: 80%;
+            margin: auto;
+        }
+        #logo{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(199, 199, 21);
+            line-height: 100px;
+            margin-bottom: 5px;
+        }
+        #navbar{
+            width: 70%;
+            height: 100px;
+            background-color: rgb(21, 39, 199);
+            line-height: 100px;
+            float: right;
+        }
+        #nav-logo{
+            width: 30%;
+            height: 100px;
+            background-color: rgb(21, 137, 199);
+            line-height: 100px;
+            float: left;
+        }
+        
+        #nav{
+            width: 100%;
+            height: 175px;
+            background-color: rgb(243, 243, 167);
+            text-align: center;
+            margin-bottom: 5px;
+
+        }
+        #header{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(221, 221, 23);
+            text-align: center;
+            margin-bottom: 10px;
+
+        }
+        #content{
+            width: 100%;
+            height: 400px;
+            background-color: rgb(242, 242, 167);
+            text-align: center;
+            margin-bottom: 10px;
+
+        }
+        #sidebar{
+            width: 25%;
+            height: 400px;
+            background-color: blue;
+            float: left;
+            text-align: center;
+
+        }
+        #bodyarea{
+            width: 70%;
+            height: 400px;
+            background-color: blue;
+            float: right;
+            text-align: center;
+        }
+
+        #footer{
+            width: 100%;
+            height: 50px;
+            background-color: rgb(243, 243, 167);
+            line-height: 50px;
+            text-align: center;
+            margin-bottom: 5px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+<div id="logo">
+<div id="nav-logo">Logo</div>
+<div id="navbar">navigation Bar</div>
+</div> 
+<div id="nav">Navigation</div>
+<div id="header"></div>
+<div id="content">
+    content
+</div>
+<div id="footer">footer</div>
+
+</div>
+</body>
+</html>
